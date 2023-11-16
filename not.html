@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRKR Engineering College</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            max-width: 60px;
+            height: auto;
+            margin-right: 10px;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 20px auto; /* Center the main content */
+        }
+
+        section {
+            flex: 0 0 75%;
+            margin-right: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            color: #333;
+            background-color: #eee;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        .right-section {
+            flex: 0 0 25%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-section > div {
+            flex: 1;
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .right-section form {
+            max-width: 100%;
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .dean-details {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 20px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="K:\vs code\images\srkrlogo1.png" alt="SRKR Engineering College Logo">
+        <h1>SRKR Engineering College</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Updates</h2>
+            <nav>
+                <a href="#">1st Year 1st Semester Results</a>
+                <a href="#">1st Year 2nd Semester Results</a>
+                <a href="#">2nd Year 1st Semester Results</a>
+                <a href="#">2nd Year 2nd Semester Results</a>
+                <a href="#">3rd Year 1st Semester Results</a>
+                <a href="#">3rd Year 2nd Semester Results</a>
+                <a href="#">4th Year 1st Semester Results</a>
+                <a href="#">4th Year 2nd Semester Results</a>
+            </nav>
+
+            <!-- Content for the left section (results) goes here -->
+        </section>
+
+        <div class="right-section">
+            <div>
+                <form>
+                    <h2>Login</h2>
+
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+
+            <div class="dean-details">
+                <h2>Controller Of Examinations</h2>
+                <p>Mobile : 9100363888</p>
+                <p>Email : coesrkr@gmail.com</p>
+                <p>Email : coe@srkrec.ac.in</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 SRKR Engineering College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
